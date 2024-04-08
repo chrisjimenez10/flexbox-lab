@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: white;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #destinations {
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #actions {
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav p {
+    margin: 10px;
+    /* outline: 2px solid red; */
+  }
+  
+  section[id=hero] {
+    height: 400px;
+    background-color: black;
+    color: white;
+    padding: 24px 72px;
+    /* outline: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  input {
+    height: 45px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 29px;
+    border: 0px;
+    padding: 0 24px;
+    /* outline: 2px solid red; */
+    margin: 20px;
+  }
+  
+  main {
+    background-color: white;
+    padding: 32px 72px;
+    /* outline: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+  }
+
+  article.card {
+    /* outline: 2px solid red; */
+    margin: 20px;
+  }
+  
+  nav button {
+    /* outline: 2px solid blue; */
+    background-color: #ea4c89;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 0;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 5px;
+  }
+  
+  .img-placeholder {
+    width: 355px;
+    height: 270px;
+    background-color: gray;
+    border-radius: 8px;
+  }
+  
+  .card-footer {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-footer * {
+    margin-top: 8px;
+  }
+  
+  #subnav {
+    padding: 32px 72px 32px;
+    background-color: white;
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #subnav button {
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px;
+    /* outline: 2px solid red; */
+  }
+  
+  #trending p {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    padding: 6px 15px;
+    margin: 6px;
+    /* outline: 2px solid red; */
+  }
+  #trending {
+    /* outline: 2px solid red; */
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 14px;
+  }
+  #headers {
+    /* outline: 2px solid red; */
+    margin: 20px;
+
+  }
+
